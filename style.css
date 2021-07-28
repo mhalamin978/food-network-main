@@ -102,10 +102,13 @@ input[type=text],select,textarea{
     background-size: cover;
     height: 500px;
 }
-#about-part img{
-    width: 50%;
-    position:relative;
-    top: 0px;
+.left-box{
+    width: 40%;
+    float: left;
+}
+.left-box img{
+    width: auto;
+    height: 500px;
 }
 /* recipies part  */
 #recipies{
