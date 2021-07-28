@@ -19,12 +19,14 @@ p{
     font-size: 20px;
     font-weight: 500;
 }
+/* color */
 .orange-text{
     color: orange;
 }
 .grey-text{
     color:#575757;
 }
+/* half width box */
 .half-width{
     width: 40%;
     float: left;
@@ -38,6 +40,7 @@ p{
 .half-width p{
     margin-bottom: 70px;
 }
+/* one third box */
 .one-third-width{
     width: 28%;
     float: left;
@@ -47,18 +50,14 @@ p{
     padding-top: 25px;
     width: 90%;
 }
-.one-fifth{
-    width:15%;
-    float:left;
-    margin:1%
-}
+/* card with shadow */
 .card{
     box-shadow: 5px 7px 40px grey;
     transition: .3s;
     border-radius: 20px;
     margin-bottom: 50px;
 }
-
+/* button style */
 .button{
     text-decoration: none;
     font-weight: 500;
@@ -67,15 +66,18 @@ p{
     border-radius: 50px;
     color: white;
 }
+/* achievement */
 .achievement{
     height: 200px;
     margin: 80px;
     padding-left: 80px;
 }
+/* my racipi */
 .mid-text{
     position:relative;
     top:50%;
 }
+/* contact us part */
 .contact{
     height: 400px;
     margin: 60px;
@@ -92,22 +94,24 @@ input[type=text],select,textarea{
     resize: vertical;
     text-align: left;
 }
-
+/* About part */
+#about-part{
+    background-image: url(./images/shapes/7.png);
+    background-repeat:no-repeat;
+    background-size: cover;
+}
 #about-part img{
     width: 50%;
     position:relative;
     top:95px;
     left:60px;
 }
-#about-part{
-    background-image: url(./images/shapes/7.png);
-    background-repeat:no-repeat;
-    background-size: cover;
-}
+/* recipies part  */
 #recipies{
     margin-top: 100px;
     text-align: center;
 }
+/* footer */
 #bottom{
     padding-top: 30px;
     height: 200px;
